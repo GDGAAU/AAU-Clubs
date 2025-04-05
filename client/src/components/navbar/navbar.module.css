@@ -33,7 +33,7 @@
     color: #9ca3af;
 }
 
-.links a:hover, .buttons:hover {
+.links a:hover, .buttons p:hover {
     color: #e5e7eb;
     cursor: pointer;
 }

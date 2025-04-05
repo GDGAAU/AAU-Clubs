@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    border: 1px solid;
+    padding: 2% 10%;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.bottom {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 10%;
+}
