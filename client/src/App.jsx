@@ -1,10 +1,11 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import NavBar from "./components/navbar/navbar";
 
 const App = () => {
 	return (
 		<div>
-			<h1>Hello, React!</h1>
+			<NavBar />
 		</div>
 	);
 };
