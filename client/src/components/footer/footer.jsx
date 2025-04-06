@@ -18,10 +18,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.socials}>
-                    <FontAwesomeIcon icon={faInstagram} />
-                    <FontAwesomeIcon icon={faFacebook} />
-                    <FontAwesomeIcon icon={faTelegram} />
-                    <FontAwesomeIcon icon={faXTwitter} />
+                    <FontAwesomeIcon icon={faInstagram} size="xl"/>
+                    <FontAwesomeIcon icon={faFacebook} size="xl"/>
+                    <FontAwesomeIcon icon={faTelegram} size="xl"/>
+                    <FontAwesomeIcon icon={faXTwitter} size="xl"/>
                 </div>
             </div>
             <hr />

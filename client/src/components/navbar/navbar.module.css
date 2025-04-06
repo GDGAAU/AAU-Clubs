@@ -44,17 +44,28 @@
     align-items: center;
     width: 20%;
     color: #9ca3af;
+    position: relative;
 }
 
 .signin {
-    border: 2px outset;
+    background: 
+      linear-gradient(black, black) padding-box,
+      linear-gradient(45deg, #ff00cc, #3333ff) border-box;
     border-radius: 20px;
-    padding: 4% 15%;
-    border-color: #7d51cb; 
-    color: #e5e7eb;
+    border: 2px solid transparent;
+    padding: 3% 12%;
+    transition: background-position 0.4s ease-in-out;
+    background-size: 200% 100%;
+    background-position: 200% 0;
 }
 
 .signin:hover {
-    box-shadow: 0 5px 5px rgba(139, 100, 207, 0.5);
-    transition: 0.2s ease-in-out;
+    background-position: 100% 0;
+    /* background: 
+        linear-gradient(black, black) padding-box,    
+        linear-gradient(to right, #3333ff, #ff00cc) border-box;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out; */
+    box-shadow: 0 5px 5px rgba(139, 100, 207, 0.5); 
+    transition: 0.2s ease-in-out; 
 }
