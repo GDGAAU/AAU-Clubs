@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTelegram, faXTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <div>
+        <div className={styles.footer}>
             <div className={styles.main}>
                 <div className={styles.left}>
                     <h2>AAU Clubs</h2>
@@ -18,12 +18,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.socials}>
-                    <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                    <FontAwesomeIcon icon="fa-brands fa-x" />
-                    <FontAwesomeIcon icon="fa-brands fa-facebook" />
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon icon={faFacebook} />
+                    <FontAwesomeIcon icon={faTelegram} />
+                    <FontAwesomeIcon icon={faXTwitter} />
                 </div>
             </div>
+            <hr />
             <div className={styles.bottom}>
                 <div className={styles.madeby}>
                     <p>Proudly made by Xerxis </p>
