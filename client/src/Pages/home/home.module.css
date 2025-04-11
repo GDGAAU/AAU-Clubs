@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.hero {
+    background-color: black;
+    padding: 8% 6%;
+    color: white;
+}
+
+.text h2 {
+    font-size: 3.1rem;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.text p {
+    line-height: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+
+.text h3 {
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.buttons {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.buttons button {
+    background: 
+      linear-gradient(black, black) padding-box,
+      linear-gradient(45deg, #ff00cc, #3333ff) border-box;
+    border-radius: 17px;
+    border: 1px solid transparent;
+    padding: 3% 10%;
+    transition: background-position 0.4s ease-in-out;
+    background-size: 200% 100%;
+    background-position: 200% 0;
+    color: #b9bfca;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-position: 100% 0;
+    box-shadow: 0 5px 5px rgba(139, 100, 207, 0.5); 
+    transition: 0.2s ease-in-out; 
+    color: #fff;
+}
+
+.image {
+    width: 70%;
+}

@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTelegram, faXTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => {
+const FooterOne = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.main}>
@@ -37,4 +37,4 @@ const Footer = () => {
     );
 } 
 
-export default Footer;
+export default FooterOne;

@@ -2,7 +2,7 @@ import './assets/styles.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
 import NavBar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+import Footer from './components/footer/Footer';
 import Home from "./Pages/home/home";
 
 const App = () => {
