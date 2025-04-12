@@ -6,6 +6,7 @@ const NavBar = () => {
         <div className={styles.navbar}>
             <div className={styles.nav}>
                 <div className={styles.logo}>
+                    <img src="/gateLions.svg" alt="logo" className={styles.logoimg}/>
                     <h2>AAU Clubs</h2>
                 </div>
                 <div className={styles.links}>

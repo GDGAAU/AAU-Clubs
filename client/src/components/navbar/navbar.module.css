@@ -7,22 +7,34 @@
     display: flex;
     gap: 1rem;
     justify-content: space-between;
-    padding: 1% 4%;
+    padding: 0 4%;
     background-color: #000000;
     color: #e5e7eb;
 }
 
 .nav {
-    /* border: 1px solid; */
     display: flex;
-    gap: 4rem;
-    padding: 1rem;
+    padding-left: 2%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 40%;
+    color: white;
+}
+
+.logo h2 {
+    padding-left: 5%;
+    font-weight: 600;
 }
 
 .links {
     list-style: none;
     display: flex;
-    /* border: 1px solid; */
     gap: 2.4rem;
     padding: 0 1rem;
     align-items: center;

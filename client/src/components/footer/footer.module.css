@@ -16,6 +16,10 @@
     padding: 2%;
 }
 
+.join h1 {
+    font-weight: 600;
+}
+
 .button {
     padding: 1%;
 }
@@ -32,8 +36,37 @@
     justify-content: space-around;
 }
 
+.left {
+    width: 38%;
+    display: flex;
+}
+
+.logo {
+    width: 35%;
+}
+
 .desc {
-    width: 25%;
+    width: max-content;
+    line-height: 1.5rem;
+    padding: 2% 7% 0;
+}
+
+.desc p {
+    padding-bottom: 5%;
+}
+
+.desc hr {
+    opacity: 0.4;
+}
+
+.desc h2 {
+    padding: 0 0 3% 0;
+}
+
+.socials {
+    display: flex;
+    gap: 0.7rem;
+    padding: 5% 3%;
 }
 
 .links li, .categories li {
@@ -52,11 +85,16 @@
 
 .contact {
     width: 15%;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .contact p {
-    padding: 1% 0;
+    padding: 3% 0;
+}
+
+.last {
+    margin: 0 5%;
+    opacity: 0.6;
 }
 
 .copyright {
