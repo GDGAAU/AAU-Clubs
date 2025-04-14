@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-.container {
+.sectionOne {
     display: flex;
 }
 
@@ -59,4 +59,33 @@ h1, h2, h3, h4, h5, h6, p {
 
 .image {
     width: 70%;
+}
+
+.sectionTwo {
+    background-image: url(../../../public/Audi.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 5%;
+}
+
+.img img {
+    width: 30%;
+    position: absolute;
+    top: 65rem;
+    left: 10rem;
+    border-radius: 30px;
+}
+
+.desc {
+    padding-left: 25%;
+}
+
+.car {
+    box-sizing: border-box;
+    background: white;
+    opacity: 0.3;
+    border-radius: 20px;
+    width: 90%;
+    height: 80vh;
+    padding: 10% 25%;
 }
